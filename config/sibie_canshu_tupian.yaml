@@ -1,0 +1,32 @@
+%YAML:1.0
+
+# 真值仿真图片专用。
+# 视频继续使用原 config/sibie_canshu.yaml。
+
+# 远距离 tu1 目标很小，放大后检测，再自动还原坐标。
+suofang_beishu: 3.0
+
+# 混合二值化
+erzhi_yuzhi: 80
+color_cha: 12
+
+# 单根灯条
+deng_min_bili: 0.02
+deng_max_bili: 0.50
+deng_max_jiaodu: 35.0
+deng_min_chang: 4.0
+min_fill_ratio: 0.18
+
+# 配对
+min_deng_bili: 0.42
+max_deng_jiaodu_cha: 22.0
+max_y_cha: 1.00
+
+# 水平中心距 / 平均灯条长度
+xiao_min_juli: 0.50
+xiao_max_juli: 3.80
+
+da_min_juli: 3.80
+da_max_juli: 6.50
+
+ban_max_jiaodu: 32.0

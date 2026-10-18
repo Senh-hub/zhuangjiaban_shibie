@@ -1,0 +1,22 @@
+%YAML:1.0
+
+tupian_kuan: 960
+tupian_gao: 720
+xiangji_name: rune_sim_camera
+
+neican_juzhen: !!opencv-matrix
+  rows: 3
+  cols: 3
+  dt: d
+  data:
+    [869.1168824543144, 0.0, 480.0,
+     0.0, 869.1168824543144, 360.0,
+     0.0, 0.0, 1.0]
+
+jibian_canshu: !!opencv-matrix
+  rows: 1
+  cols: 5
+  dt: d
+  data: [0.0, 0.0, 0.0, 0.0, 0.0]
+
+chongtouying_wucha: 0.0140
